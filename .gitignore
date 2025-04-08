@@ -1,0 +1,43 @@
+# ──────────────────────────────
+# Node / Vite / React frontend
+# ──────────────────────────────
+
+# dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+package-lock.json 
+yarn.lock 
+pnpm-lock.yaml
+
+# production build
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# test coverage
+coverage/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# environment / secrets
+.env
+.env.*          # .env.local, .env.production, etc.
+
+# misc
+*.local
+*.sublime-*

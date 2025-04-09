@@ -1,7 +1,9 @@
 # NYT‑RSS Frontend (React + Vite)
 
-Single‑page app that consumes the backend’s `/api/articles/technology` endpoint
+Single‑page app that consumes the backend’s [http://localhost:8080/api/articles/technology](http://localhost:8080/api/articles/technology) endpoint
 and shows the NYT Technology headlines with an ENG/ESP translation
+
+Default frontend url: [http://localhost:5173](http://localhost:5173)
 
 ---
 
@@ -16,11 +18,15 @@ and shows the NYT Technology headlines with an ENG/ESP translation
 
 ## Install & run (dev)
 
+- Install the application
+
 ```bash
 cd nyt-rss-frontend
 npm install         # grabs React, Vite, Tailwind, i18next
 npm run dev         # http://localhost:5173
 ```
+
+- Open [http://localhost:5173](http://localhost:5173)
 
 ---
 

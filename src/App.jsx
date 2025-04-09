@@ -9,7 +9,7 @@ export default function App() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    fetch('/api/articles')
+    fetch('/api/articles/technology')
       .then(res => res.json())
       .then(setArticles)
       .catch(console.error);
@@ -19,7 +19,7 @@ export default function App() {
     <div className="min-h-screen">
       <Header />
       <main className="max-w-5xl mx-auto px-4 mt-24">
-        <h1 className="text-3xl font-bold mb-6">{t('Technology News')}</h1>
+        <h1 className="text-3xl font-bold mb-6">{t('technology')}</h1>
         <div className="grid gap-6">
           {articles.map(a => (
             <ArticleCard key={a.link} article={a} />
